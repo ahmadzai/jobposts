@@ -1,0 +1,19 @@
+{
+    "name": "wazir/jobposts",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Wazir Khan",
+            "email": "wazir.ahmadzai@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JobPosts\\": "src",
+            "Core\\": "bin"
+        }
+    },
+    "require": {
+        "php": "7.2.*"
+    }
+}
