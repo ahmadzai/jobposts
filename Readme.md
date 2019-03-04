@@ -14,7 +14,7 @@ And then the doctrine command should be executed:
 Next step is to configure mailer, for that you need entries in two files. 
 First one is `src/service/EmailService.php`, there one should add
 a proper gmail account with it's password as well proper email address
-indicating from whom the emails are sending. 
+indicating outgoings from email. 
 
 The second place which is just to add a static moderator email, 
 normally these things should be done in settings file (YMAL, XML, ect), 
