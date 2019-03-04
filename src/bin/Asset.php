@@ -5,13 +5,12 @@
  * Date: 2/19/2019
  * Time: 2:47 PM
  */
-namespace Core\bin;
+namespace JobPosts\bin;
 
 class Asset
 {
     public static function attach(string $asset) {
-        $path = dirname(__DIR__)."/public/assets/";
-        return $path.$asset;
+        return "../public/assets/".$asset;
     }
 
 }
