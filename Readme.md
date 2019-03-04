@@ -23,5 +23,5 @@ So in `src/controller/PostController.php` line `74` moderator email
 should be added. 
 
 That's it, start your favourite web-server and go to this URL (in case of localhost)
-`localhost/jobpost/public`
+`localhost/jobposts/public`
 
